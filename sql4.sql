@@ -9,4 +9,4 @@ SELECT COUNT(*) FROM country
 WHERE country LIKE  '_____';
 
 SELECT COUNT(*) FROM city
-WHERE city LIKE 'R%r';
+WHERE city ILIKE '%r';
